@@ -1,6 +1,6 @@
 ---
 layout: default
 title: Child
-parent: Lesson
+parent: Lesson1
 nav_order: 2
 ---
