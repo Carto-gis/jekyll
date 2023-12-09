@@ -1,4 +1,10 @@
 ---
+layout: default
+title: Child
+parent: Lesson1
+nav_order: 3
+---
+---
 kernelspec:
   name: python3
   display_name: python3
