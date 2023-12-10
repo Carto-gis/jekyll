@@ -41,7 +41,7 @@
 
 .main-content-wrap {
   @include container;
-
+  max-width: 800px !important;
   padding-top: $gutter-spacing-sm;
   padding-bottom: $gutter-spacing-sm;
 
