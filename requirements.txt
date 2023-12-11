@@ -1,2 +1,4 @@
 jekyllnb==0.3.1
 nbconvert==6.5.4
+nbsphinx==0.9.3
+sphin==7.2.6
