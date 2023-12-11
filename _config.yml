@@ -17,6 +17,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-compose
   - jekyll-archives
+  - jupyter_notebooks
 
 exclude:
   - Gemfile
