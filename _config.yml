@@ -8,3 +8,32 @@ url: https://just-the-docs.github.io
 
 logo: "/assets/images/logo.png"
 color_scheme: light
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-admin
+  - jekyll-remote-theme
+  - jekyll-compose
+  - jekyll-archives
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - node_modules/
+  - vendor/
+  - .github/
+  - README.md
+  - LICENSE
+  - .gitignore
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+include:
+  - _notebooks/*.ipynb
